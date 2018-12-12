@@ -18,7 +18,6 @@
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-
 class EchoHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         # First, send a 200 OK response.
